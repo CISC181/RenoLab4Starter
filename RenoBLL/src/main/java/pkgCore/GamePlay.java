@@ -67,6 +67,7 @@ public class GamePlay {
 	public GamePlay(Table t, Rule rle) {
 		GamePlayers.addAll(t.getTablePlayers());
 		GameDeck = new Deck();
+		this.rle = rle;
 	}
 
 	
